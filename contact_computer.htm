@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- 
+*****************************************************************************
+Title: Contact 
+Use: To allow users to contact the shop regarding questions about services.
+Author: Jonathan Odom
+School/Term: Southern Illinois University, Spring 2022
+Developed: Apr 22, 2022 
+Tested: Apr 22, 2022; Passed on Edge, Firefox, and Chrome browsers.
+******************************************************************************
+-->
+<html lang="en-US">
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon-312499__340.jpg">
+        <meta name="description" content="Bicycle shop in Jacksonville, NC specializing in bike sales, repair, and accessories. ">
+        <meta name="keywords" content="Bicyle Repair, Bicycle Sales, Bicyle Accessories">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="computer_practice.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9eef2aa745.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="header">
+                <div class="img">
+                    <img src="_Logo.png" width="400" height="300">
+                </div>
+                <div class="address">
+                    <p>1234 Marine Street</p>
+                    <p>Jacksonville, NC 28547</p>
+                    <p>910.123.4567</p>
+                </div>
+            </div>
+        </header>
+        
+        <hr class="topsolid">
+        
+        <div class="topnav">
+            <a href="index.htm">Home</a>
+            <a href="repair_services.htm">Repair Services</a>
+            <a href="about.htm">About</a>
+            <a href="contact_computer.htm">Contact</a>
+            <a href=tech_tips.htm>Tech Tips</a>
+        </div>
+        
+        <hr class="topsolid">
+        
+        <div class="left4">
+            <h2>Working Hours</h2>
+            <p>Monday: 8:00am - 5:00pm</p>
+            <p>Tuesday: 8:00am - 5:00pm</p>
+            <p>Wednesday: 8:00am - 5:00pm</p>
+            <p>Thursday: 8:00am - 5:00pm</p>
+            <p>Friday: 8:00am - 5:00pm</p>
+            <p>Saturday: 9:00am - 2:00pm</p>
+            <img src="contact-2860030__340.jpg" alt="hand with contact us sign" width="400" height="383">
+        </div>
+        
+        <div class="main4">
+            <div class="container">
+                <form action="response.htm" method="post">
+                <div class="row">
+                    <div class="col-1">
+                        <label for="fname">First Name:</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" id="fname" maxlength="25" placeholder="First Name" autofocus required></div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="lname">Last Name:</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" id="lname" maxlength="25" placeholder="Last Name" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="phone_number">Phone Number:</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="tel" id="phone_number" maxlength="12" placeholder="Phone" required pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="subject">Subject:</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" id="subject" maxlength="25" placeholder="Subject" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col-2">
+                        <textarea id="message" minlength="20" maxlength="200" placeholder="Send us a message.." required style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" id="submit" value="Submit">
+                    <input type="reset" id="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+        
+        <hr class="solid">
+        
+        <footer>
+            <div class="footer-content">
+                <h3>Jay's Computer Fixx</h3>
+                <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+                <div class="footer-address">
+                    <p>1234 Marine Street</p>
+                    <p>Jacksonville, NC 28547</p>
+                    <p>910.123.4567</p>
+                    <a href="https://www.siu.edu/" target="_blank">Southern Illinois University-Carbondale</a></div>
+                <div class="footer-bottom">
+                    <p>&copy; Copyright 2022 Jay's Computer Fixx</p>
+                </div>
+            </div>
+        </footer>
+    </body>
